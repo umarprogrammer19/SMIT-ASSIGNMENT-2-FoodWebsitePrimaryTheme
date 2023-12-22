@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home/Food</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <style>
+        .foodmenuanc {
+            font-size: 25px;
+        }
+
+        .foodmenuh1 {
+            position: relative;
+            top: 4px;
+        }
+
+        .burgerh1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .bbqh1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .Ricesh1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .Dealsh1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .foodmenuitem {
+            color: black;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body class="container-fluid">
+    <nav  class="navbar navbar-expand-lg bg-primary">
+        <div id="navbarid" class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home / Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="./Pages/Grocery.html">Grocery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="./Pages/About.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav> <br>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item bg-primary">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Food Menu Item #1 : <a href="#BurgerHeading" class="nav-link foodmenuitem"> Burgers </a>
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">All Catogries Of Burgers Are Available At Discounted Price Like Zinger
+                    Burger , Zinger Cheese Burger , Jumbo Zinger Burgers , Chicken Burger , Chicken Cheese Burger , Beef
+                    Burger Etc For More Details Click On <a href="#BurgerHeading" class="foodmenuitem"> Burgers </a>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-primary">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Food Menu Item #2 : <a href="" class="nav-link foodmenuitem"> B.B.Q </a>
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Here Are Customers Favorite B.B.Q Items On Discount Items : Chicken Tikka ,
+                    Chicken Malai Tikka , Boti , Malai Boti , Chicken Nuggest , Chicken Stick For More Details Click On
+                    <a href="#B.B.QHeading" class="foodmenuitem"> B.B.Q </a>.
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item bg-primary">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Food Menu Item #3 : <a href="" class="nav-link foodmenuitem"> Rices </a>
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    We Have All Types Of Rices That People Wants Like Biryani , Palao , Chinese Rices , Fright Rice ,
+                    Chicken Rices , Potato Rices At Resoable Prices (Discout is Active Avail it) For More Details Click
+                    On <a href="#RicesHeading" class="foodmenuitem"> Rices </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item bg-primary">
+            <h2 class="accordion-header ">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Food Menu Item #4 : <a href="" class="nav-link foodmenuitem"> Deals </a>
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Here Are Discounted Deals With More Items Like Burgers, BBQ Items , Pizzas , Coldrinks , Rices In a
+                    Single Platter For More Details Click On <a href="#DealsHeading" class="foodmenuitem"> Deals </a>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+    <h1 id="BurgerHeading" class="bg-primary text-center p-1 burgerh1">Burgers</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img class="img1"
+                    src="https://www.wikihow.com/images/thumb/e/e4/Make-Zinger-Burgers-Step-15.jpg/aid5673320-v4-1200px-Make-Zinger-Burgers-Step-15.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Zinger Burger</h5>
+                    <p class="card-text"><b>Zinger Burger <del>Rs.300 /</del> <ins>Rs.240</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://www.jacksonville.com/gcdn/authoring/2017/04/18/NFTU/ghows-LK-8d4690ec-9b3d-47fe-b675-e4c0cbdb1af0-2f5a1906.jpeg?width=1200&disable=upscale&format=pjpg&auto=webp"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Spicy Crispy Zinger Burger</h5>
+                    <p class="card-text"><b>Spicy Crispy Zinger Burger <del>Rs.320 /</del> <ins>Rs.280</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://static.independent.co.uk/2022/10/17/14/food-veggie-burger-fd33c294-3dbe-11ed-889c-6af595115f82.jpg?width=1200"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Jumbo Beef Burger</h5>
+                    <p class="card-text"><b>Jumbo Beef Burger <del>Rs.220 /</del> <ins>Rs.170</ins></b></p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+    <h1 id="B.B.QHeading" class="bg-primary text-center p-1 bbqh1">B.B.Q</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img class="img1" src="https://static.toiimg.com/thumb/78558885.cms?width=1200&height=900"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Tikka</h5>
+                    <p class="card-text"><b>Chicken Tikka <del>Rs.400 /</del> <ins>Rs.350</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://images.saymedia-content.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTg0Mzg1ODQ2OTk5OTE4MDU4/7-coloured-chicken-tikka-kebabs.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Malai Tikka </h5>
+                    <p class="card-text"><b>Malai Tikka <del>Rs.450 /</del> <ins>Rs.400</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://static.toiimg.com/thumb/53007558.cms?width=1200&height=900" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Roast</h5>
+                    <p class="card-text"><b>Chicken Roast <del>Rs.520 /</del> <ins>Rs.400</ins></b></p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+    <h1 id="RicesHeading" class="bg-primary text-center p-1 Ricesh1">Rices</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img class="img1" src="https://static.toiimg.com/thumb/69038542.cms?width=1200&height=900"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Biryani</h5>
+                    <p class="card-text"><b>Chicken Biryani <del>Rs.300 /</del> <ins>Rs.270</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://static.toiimg.com/thumb/75581339.cms?width=1200&height=900" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chinese Rice </h5>
+                    <p class="card-text"><b>Chinese Rice <del>Rs.380 /</del> <ins>Rs.320</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://static.toiimg.com/thumb/53097817.cms?width=1200&height=900" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Chicken Palao</h5>
+                    <p class="card-text"><b>Chicken Palao <del>Rs.280 /</del> <ins>Rs.220</ins></b></p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+    <h1 id="DealsHeading" class="bg-primary text-center p-1 Delash1">Deals</h1>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card">
+                <img class="img1" src="https://static.toiimg.com/photo/95665037.cms" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deal 1</h5>
+                    <p class="card-text"><b>1.Zinger Burger <br> 1.Broast <br> 2.Sandwich <br>1.Coldrink 1ltr <br> In
+                            Just <del>Rs.1299 /</del> <ins>Rs.1149</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://i2-prod.mylondon.news/whats-on/article20789790.ece/ALTERNATES/s1200b/1_Screenshot-146.png"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deal 2 </h5>
+                    <p class="card-text"><b>1.Small Pizza <br> 1.Regular Pizza <br>1.Large Pizza <br> 1.Coldrink 1ltr
+                            <br>In Just <del>Rs.1199 /</del> <ins>Rs.999</ins></b> </p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="https://images.deliveryhero.io/image/talabat/MenuItems/Half_Chicken_+_1_Side638214736795402469.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Deal 3</h5>
+                    <p class="card-text"><b>1.Chicken Tikka <br> 1.Chicken Stick <br> 1.Fries <br> 1.Malai Tikka <br>
+                            <del>Rs.1499 /</del> <ins>Rs.1249</ins></b></p>
+                </div>
+            </div>
+        </div>
+    </div> <br>
+
+
+    <a class="btn btn-primary" href="#navbarid">Go To Top</a>
+    <br><br>
+
+    <footer class="bg-primary text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Content Info</h5>
+
+                    <p>
+                        I am A Beginner Web Developer I Designed Many Of This Type Of Webs With The Help Of HTML CSS
+                        Javascript Bootsrtrap Flexbox Css Grid System For More Details Contact Me On Instagram
+                        Link is Given On Links Icon And KIndly Follow And Subscribe My Social Media Accounts Like
+                        Youtube Instagram Facebook And Github.
+                    </p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Links</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://www.youtube.com/@CODINGWITHUG" target="_blank"
+                                class="text-white">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/itx_umar_1908?igsh=ODA1NTc5OTg5Nw==" target="_blank"
+                                class="text-white">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100082268683063&mibextid=ZbWKwL"
+                                target="_blank" class="text-white">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/umarprogrammer19/SMIT-TASKS-ASSIGNMENTS" target="_blank"
+                                class="text-white">Github</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Links</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="https://www.youtube.com/@umar_gaming666" target="_blank"
+                                class="text-white">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/itx_umar_1908?igsh=ODA1NTc5OTg5Nw==" target="_blank"
+                                class="text-white">Instagram</a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/profile.php?id=100082268683063&mibextid=ZbWKwL"
+                                target="_blank" class="text-white">Facebook</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/umarprogrammer19/SMIT-TASKS-ASSIGNMENTS" target="_blank"
+                                class="text-white">Github</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2024 Copyright:
+            <a class="text-white" href="https://www.youtube.com/@CODINGWITHUG">UMAR PROGRAMMER</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
